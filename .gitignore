@@ -1,0 +1,16 @@
+# Local OpenMAIC checkout created by the bootstrap script
+.pilot-runtime/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Generated material that has not yet been sanitised
+pilots/**/outputs/raw/
+
+# Common local noise
+.DS_Store
+Thumbs.db
